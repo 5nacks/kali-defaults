@@ -1,5 +1,5 @@
-kali-defaults (0.1-1) unstable; urgency=low
+kali-defaults (0.1-1kali0) kali; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release 
 
  -- Devon Kearns <dookie@kali.org>  Thu, 24 Jan 2013 13:47:40 -0700

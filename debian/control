@@ -1,15 +1,16 @@
 Source: kali-defaults
-Section: unknown
+Section: utils
 Priority: extra
 Maintainer: Devon Kearns <dookie@kali.org>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://git.debian.org/collab-maint/kali-defaults.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/kali-defaults.git;a=summary
+Homepage: http://www.kali.org
+Vcs-Git: ssh://git@git.kali.org/packages/kali-defaults.git
+Vcs-Browser: http://git.kali.org/gitweb/?p=packages/kali-defaults.git;a=summary
 
 Package: kali-defaults
 Architecture: all
 Depends: ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: Kali default settings
+ This package implements various default settings
+ within Kali.
