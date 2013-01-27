@@ -1,1 +1,1 @@
-kali-tweaks.gschema.override usr/share/glib-2.0/schemas/
+debian/kali-tweaks.gschema.override usr/share/glib-2.0/schemas/

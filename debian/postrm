@@ -1,5 +1,3 @@
 #!/bin/bash
 
 rm -rf /usr/share/glib-2.0/schemas/kali-tweaks.gschema.override
-
-glib-compile-schemas /usr/share/glib-2.0/schemas
