@@ -1,3 +1,9 @@
+kali-defaults (0.1-1kali1) kali; urgency=low
+
+  * Added libglib2 dependency
+
+ -- Mati Aharoni <muts@kali.org>  Sun, 27 Jan 2013 01:17:44 -0500
+
 kali-defaults (0.1-1kali0) kali; urgency=low
 
   * Initial release 

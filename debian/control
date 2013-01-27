@@ -10,7 +10,7 @@ Vcs-Browser: http://git.kali.org/gitweb/?p=packages/kali-defaults.git;a=summary
 
 Package: kali-defaults
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends},libglib2.0-bin
 Description: Kali default settings
  This package implements various default settings
  within Kali.
