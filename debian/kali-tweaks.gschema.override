@@ -13,4 +13,5 @@ trash-icon-visible=false
 home-icon-visible=false
 [org.gnome.eog.ui]
 disable-close-confirmation=true
-
+[org.gnome.desktop.interface]
+icon-theme='gnome-human'
