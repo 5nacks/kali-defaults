@@ -6,6 +6,8 @@ kali-defaults (0.2) UNRELEASED; urgency=low
   * Switch debhelper compatibility level to 9.
   * Replace postinst script with debian/kali-defaults.gconf-defaults
     automatically handled by dh_gconf.
+  * Add /etc/X11/Xsession.d/52kali_noautomount to handle the "noautomount"
+    boot option (on the kernel command-line).
 
  -- Raphaël Hertzog <hertzog@debian.org>  Wed, 20 Feb 2013 17:50:44 +0100
 
