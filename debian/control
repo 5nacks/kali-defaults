@@ -2,7 +2,7 @@ Source: kali-defaults
 Section: utils
 Priority: extra
 Maintainer: Devon Kearns <dookie@kali.org>
-Build-Depends: debhelper (>= 8.0.0)
+Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.3
 Homepage: http://www.kali.org
 Vcs-Git: ssh://git@git.kali.org/packages/kali-defaults.git

@@ -3,6 +3,7 @@ kali-defaults (0.2) UNRELEASED; urgency=low
   * Update package to be a native package since it's specific to Kali.
   * Drop postrm which is not required since it only removes a file that
     dpkg has already removed.
+  * Switch debhelper compatibility level to 9.
 
  -- Raphaël Hertzog <hertzog@debian.org>  Wed, 20 Feb 2013 17:50:44 +0100
 
