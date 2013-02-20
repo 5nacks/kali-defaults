@@ -5,12 +5,12 @@ Maintainer: Devon Kearns <dookie@kali.org>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.3
 Homepage: http://www.kali.org
-Vcs-Git: ssh://git@git.kali.org/packages/kali-defaults.git
+Vcs-Git: git://git.kali.org/packages/kali-defaults.git
 Vcs-Browser: http://git.kali.org/gitweb/?p=packages/kali-defaults.git;a=summary
 
 Package: kali-defaults
 Architecture: all
-Depends: ${misc:Depends},gnome-human-icon-theme
+Depends: ${misc:Depends}, gnome-human-icon-theme
 Description: Kali default settings
  This package implements various default settings
  within Kali.
