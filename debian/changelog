@@ -7,6 +7,7 @@ kali-defaults (0.5) kali; urgency=low
     /etc/iceweasel/profile/prefs.js. 
   * Cleanup localstore.rdf to only keep the setting about the personal
     toolbar.
+  * Properly setup diversions in the upgrade case too.
 
  -- Raphaël Hertzog <hertzog@debian.org>  Wed, 27 Feb 2013 16:30:44 +0100
 

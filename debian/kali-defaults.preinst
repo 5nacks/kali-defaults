@@ -13,14 +13,24 @@ set -e
 # for details, see http://www.debian.org/doc/debian-policy/ or
 # the debian-policy package
 
+setup_diversions() {
+    for file in /etc/iceweasel/profile/localstore.rdf /etc/iceweasel/profile/bookmarks.html
+    do
+	dpkg-divert --rename --package kali-defaults \
+		    --divert $file.original \
+		    --add $file
+    done
+}
+
 case "$1" in
     install)
-	for file in /etc/iceweasel/profile/localstore.rdf /etc/iceweasel/profile/bookmarks.html
-	do
-	    dpkg-divert --rename --package kali-defaults \
-			--divert $file.original \
-			--add $file
-	done
+	setup_diversions
+    ;;
+
+    upgrade)
+	if dpkg --compare-versions "$2" lt 0.5; then
+	    setup_diversions
+	fi
     ;;
 
     upgrade|abort-upgrade)
