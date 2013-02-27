@@ -1,2 +1,5 @@
 kali-tweaks.gschema.override usr/share/glib-2.0/schemas/
 52kali_noautomount etc/X11/Xsession.d/
+browser/bookmarks.html usr/share/kali-defaults
+browser/localstore.rdf usr/share/kali-defaults
+browser/prefs.js usr/share/kali-defaults

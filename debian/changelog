@@ -1,3 +1,9 @@
+kali-defaults (0.3) kali; urgency=low
+
+  * Updated Iceweasel default profile
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 27 Feb 2013 09:45:40 -0500
+
 kali-defaults (0.2) kali; urgency=low
 
   * Update package to be a native package since it's specific to Kali.

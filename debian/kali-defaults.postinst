@@ -1,0 +1,16 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = "configure" ]; then
+    for file in /etc/iceweasel/profile/localstore.rdf /etc/iceweasel/profile/prefs.js /etc/iceweasel/profile/bookmarks.html;do
+	orig_file="/usr/share/kali-defaults/$(basename $file)"
+	if [ ! -e $file ] && [ -e $orig ]; then
+	    echo "Installing $orig_file as $file"
+	    cp $orig_file $file
+	fi
+    done
+fi
+
+#DEBHELPER#
+
