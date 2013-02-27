@@ -5,6 +5,8 @@ kali-defaults (0.5) UNRELEASED; urgency=low
   * Fix postinst check. 
   * Install /etc/iceweasel/pref/kali.js instead of diverting
     /etc/iceweasel/profile/prefs.js. 
+  * Cleanup localstore.rdf to only keep the setting about the personal
+    toolbar.
 
  -- Raphaël Hertzog <hertzog@debian.org>  Wed, 27 Feb 2013 16:15:19 +0100
 

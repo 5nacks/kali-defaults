@@ -1,34 +1,7 @@
 <?xml version="1.0"?>
+<!-- We enable the personal toolbar by default in Kali -->
 <RDF:RDF xmlns:NC="http://home.netscape.com/NC-rdf#"
          xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <RDF:Description RDF:about="chrome://browser/content/places/bookmarkProperties.xul#bookmarkproperties"
-                   screenX="180"
-                   screenY="104"
-                   width="440" />
-  <RDF:Description RDF:about="chrome://browser/content/browser.xul#main-window"
-                   screenX="0"
-                   screenY="27"
-                   width="1062"
-                   height="823"
-                   sizemode="maximized" />
-  <RDF:Description RDF:about="chrome://browser/content/preferences/preferences.xul#BrowserPreferences"
-                   screenY="27"
-                   screenX="73"
-                   lastSelected="paneMain" />
-  <RDF:Description RDF:about="chrome://browser/content/browser.xul">
-    <NC:persist RDF:resource="chrome://browser/content/browser.xul#main-window"/>
-    <NC:persist RDF:resource="chrome://browser/content/browser.xul#PersonalToolbar"/>
-    <NC:persist RDF:resource="chrome://browser/content/browser.xul#sidebar-box"/>
-    <NC:persist RDF:resource="chrome://browser/content/browser.xul#sidebar-title"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="chrome://browser/content/places/bookmarkProperties.xul">
-    <NC:persist RDF:resource="chrome://browser/content/places/bookmarkProperties.xul#bookmarkproperties"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="chrome://browser/content/browser.xul#sidebar-title"
-                   value="" />
   <RDF:Description RDF:about="chrome://browser/content/browser.xul#PersonalToolbar"
                    collapsed="false" />
-  <RDF:Description RDF:about="chrome://browser/content/preferences/preferences.xul">
-    <NC:persist RDF:resource="chrome://browser/content/preferences/preferences.xul#BrowserPreferences"/>
-  </RDF:Description>
 </RDF:RDF>
