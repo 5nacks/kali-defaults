@@ -3,4 +3,4 @@ kali-tweaks.gschema.override usr/share/glib-2.0/schemas/
 browser/kali.js etc/iceweasel/pref/
 browser/bookmarks.html usr/share/kali-defaults
 browser/localstore.rdf usr/share/kali-defaults
-browser/homepage.html usr/share/kali-defaults
+browser/web/* usr/share/kali-defaults

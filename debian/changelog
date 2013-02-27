@@ -1,3 +1,9 @@
+kali-defaults (0.6) kali; urgency=low
+
+  * Added default browser home website files
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 27 Feb 2013 17:21:43 -0500
+
 kali-defaults (0.5) kali; urgency=low
 
   * Provide /etc/iceweasel/{pref,profile}/ so that the postinst never fails
