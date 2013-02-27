@@ -2,6 +2,7 @@ kali-defaults (0.5) UNRELEASED; urgency=low
 
   * Provide /etc/iceweasel/{pref,profile}/ so that the postinst never fails
     even if iceweasel is not yet installed.
+  * Fix postinst check. 
 
  -- Raphaël Hertzog <hertzog@debian.org>  Wed, 27 Feb 2013 16:15:19 +0100
 
