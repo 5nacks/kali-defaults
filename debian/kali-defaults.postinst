@@ -11,6 +11,7 @@ if [ "$1" = "configure" ]; then
 	    cp $orig_file $file
 	fi
     done
+    dconf update || true
 fi
 
 #DEBHELPER#

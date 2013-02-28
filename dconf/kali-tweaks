@@ -1,0 +1,22 @@
+# This dconf override adds two default launchers in gnome-panel
+
+[org/gnome/gnome-panel/layout]
+object-id-list=['browser', 'terminal']
+
+[org/gnome/gnome-panel/layout/objects/browser]
+object-iid='PanelInternalFactory::Launcher'
+pack-index=1
+pack-type='start'
+toplevel-id='top-panel'
+
+[org/gnome/gnome-panel/layout/objects/browser/instance-config]
+location='/usr/share/applications/iceweasel.desktop'
+
+[org/gnome/gnome-panel/layout/objects/terminal]
+object-iid='PanelInternalFactory::Launcher'
+pack-index=2
+pack-type='start'
+toplevel-id='top-panel'
+
+[org/gnome/gnome-panel/layout/objects/terminal/instance-config]
+location='/usr/share/applications/gnome-terminal.desktop'

@@ -11,7 +11,7 @@ Vcs-Browser: http://git.kali.org/gitweb/?p=packages/kali-defaults.git;a=summary
 
 Package: kali-defaults
 Architecture: all
-Depends: ${misc:Depends}, gnome-human-icon-theme, libglib2.0-bin
+Depends: ${misc:Depends}, gnome-human-icon-theme, libglib2.0-bin, dconf-tools
 Description: Kali default settings
  This package implements various default settings
  within Kali.

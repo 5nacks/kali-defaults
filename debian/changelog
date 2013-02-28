@@ -1,3 +1,9 @@
+kali-defaults (0.7) UNRELEASED; urgency=low
+
+  * Extend kali's dconf defaults to setup two launchers in the GNOME Panel.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Thu, 28 Feb 2013 14:12:32 +0100
+
 kali-defaults (0.6) kali; urgency=low
 
   * Added default browser home website files
