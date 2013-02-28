@@ -1,9 +1,9 @@
-kali-defaults (0.7) UNRELEASED; urgency=low
+kali-defaults (0.7) kali; urgency=low
 
   * Extend kali's dconf defaults to setup two launchers in the GNOME Panel.
   * Add favicons to the default bookmarks.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Thu, 28 Feb 2013 14:12:32 +0100
+ -- Raphaël Hertzog <hertzog@debian.org>  Thu, 28 Feb 2013 16:41:43 +0100
 
 kali-defaults (0.6) kali; urgency=low
 
