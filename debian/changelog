@@ -1,3 +1,9 @@
+kali-defaults (1.1) kali; urgency=low
+
+  * Changed terminal transparency
+
+ -- Mati Aharoni <muts@kali.org>  Sat, 02 Mar 2013 07:01:51 -0500
+
 kali-defaults (1.0) kali; urgency=low
 
   * Changed icon theme.
