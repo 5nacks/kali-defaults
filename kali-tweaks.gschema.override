@@ -18,4 +18,4 @@ home-icon-visible=false
 disable-close-confirmation=true
 
 [org.gnome.desktop.interface]
-icon-theme='gnome-human'
+icon-theme='gnome-brave'
