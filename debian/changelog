@@ -1,3 +1,9 @@
+kali-defaults (1.0) kali; urgency=low
+
+  * Changed icon theme.
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 01 Mar 2013 21:10:06 -0500
+
 kali-defaults (0.9) kali; urgency=low
 
   * Fixed small typo in homepage.html
