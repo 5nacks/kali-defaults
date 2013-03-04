@@ -1,3 +1,10 @@
+kali-defaults (1.2) kali; urgency=low
+
+  * Divert /usr/share/themes/Adwaita/metacity-1/metacity-theme-3.xml with
+    custom file for Kali.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Mon, 04 Mar 2013 15:08:06 +0100
+
 kali-defaults (1.1) kali; urgency=low
 
   * Changed terminal transparency
