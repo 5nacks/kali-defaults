@@ -1,10 +1,10 @@
 kali-tweaks.gschema.override usr/share/glib-2.0/schemas/
 52kali_noautomount etc/X11/Xsession.d/
-.bashrc usr/share/kali-defaults
+.bashrc usr/share/kali-defaults/
 browser/kali.js etc/iceweasel/pref/
-browser/bookmarks.html usr/share/kali-defaults
-browser/localstore.rdf usr/share/kali-defaults
-browser/web/* usr/share/kali-defaults
+browser/bookmarks.html usr/share/kali-defaults/
+browser/localstore.rdf usr/share/kali-defaults/
+browser/web usr/share/kali-defaults/
 dconf/user etc/dconf/profile/
 dconf/kali-tweaks etc/dconf/db/local.d/
 adwaita/metacity-theme-3.xml usr/share/themes/Adwaita/metacity-1/
