@@ -1,3 +1,9 @@
+kali-defaults (1.4) kali; urgency=low
+
+  * Changed transparency
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 07 Mar 2013 08:55:36 -0500
+
 kali-defaults (1.3) kali; urgency=low
 
   * Use /usr/share/kali-defaults/web/ directory to store the homepage
