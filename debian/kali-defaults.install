@@ -8,4 +8,4 @@ browser/web usr/share/kali-defaults/
 dconf/user etc/dconf/profile/
 dconf/kali-tweaks etc/dconf/db/local.d/
 adwaita/metacity-theme-3.xml usr/share/themes/Adwaita/metacity-1/
-modules/kali-blacklist.conf etc/modprobe.d/kali-blacklist.conf
+modules/kali-blacklist.conf etc/modprobe.d/
