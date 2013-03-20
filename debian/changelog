@@ -1,3 +1,9 @@
+kali-defaults (1.5) kali; urgency=low
+
+  * Blacklist pcspkr by default
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 20 Mar 2013 06:50:19 -0400
+
 kali-defaults (1.4) kali; urgency=low
 
   * Changed transparency
