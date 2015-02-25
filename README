@@ -1,3 +1,9 @@
+changed default value of settings
+---------------------------------
+
+Most of the interesting configuration changes made by this
+package are in debian/kali-defaults.gsettings-override.
+
 gdm sessions
 ------------
 

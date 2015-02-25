@@ -1,0 +1,30 @@
+# Change default terminal settings
+[org.gnome.Terminal.Legacy.Profile]
+use-theme-colors=false
+foreground-color='#FFFFFF'
+background-color='#000000'
+scrollback-unlimited=true
+
+[org.gnome.Terminal.Legacy.Settings]
+confirm-close=false
+
+# Change desktop settings
+[org.gnome.desktop.background]
+show-desktop-icons=true
+
+[org.gnome.desktop.wm.preferences]
+button-layout='appmenu:minimize,maximize,close'
+
+[org.gnome.desktop.interface]
+icon-theme='gnome-brave'
+
+[org.gnome.desktop.screensaver]
+picture-uri='file:///usr/share/images/desktop-base/kali.xml'
+
+[org.gnome.nautilus.desktop]
+trash-icon-visible=false
+home-icon-visible=false
+
+# Change misc application settings
+[org.gnome.eog.ui]
+disable-close-confirmation=true

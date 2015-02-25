@@ -1,6 +1,8 @@
-kali-defaults (2.0~) kali-dev; urgency=medium
+kali-defaults (2.0~1) kali-dev; urgency=medium
 
   * Update for kali-rolling's gdm.
+  * Use dh_installgsettings to install the gsettings schema override file.
+  * Convert gconf settings to gsettings schema override entries too.
 
  -- Raphaël Hertzog <hertzog@debian.org>  Wed, 25 Feb 2015 15:54:43 +0100
 
