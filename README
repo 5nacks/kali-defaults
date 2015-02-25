@@ -1,0 +1,13 @@
+gdm sessions
+------------
+
+Special diversions are made with gdm's xsessions files so that the
+default.desktop file defining the default session that gdm launches
+is the session that Kali wants.
+
+/usr/share/gdm/BuiltInSessions/default.desktop is moved away
+while /usr/share/xsessions/gnome-fallback.desktop is renamed
+into default.desktop.
+
+NOTE: If gnome-flashback is not installed, the default will be
+the first session by alphabetical order.
