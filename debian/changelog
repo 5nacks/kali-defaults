@@ -1,7 +1,12 @@
-kali-defaults (2.0~2) UNRELEASED; urgency=medium
+kali-defaults (2.0~2) kali-dev; urgency=medium
 
+  [ Sophie Brun ]
   * Update dconf/kali-tweaks file with the correct toplevel-id for
     org/gnome/gnome-panel/layout/objects/*
+
+  [ Raphaël Hertzog ]
+  * Add a work-around to make sure we have an UTF-8 locale in graphical
+    sessions.
 
  -- Sophie Brun <sophie@freexian.com>  Thu, 26 Feb 2015 10:51:16 +0100
 

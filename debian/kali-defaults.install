@@ -1,4 +1,5 @@
 52kali_noautomount etc/X11/Xsession.d/
+52kali_fix_lang etc/X11/Xsession.d/
 .bashrc usr/share/kali-defaults/
 browser/kali.js etc/iceweasel/pref/
 browser/bookmarks.html usr/share/kali-defaults/
