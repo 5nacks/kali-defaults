@@ -1,3 +1,10 @@
+kali-defaults (2.0~2) UNRELEASED; urgency=medium
+
+  * Update dconf/kali-tweaks file with the correct toplevel-id for
+    org/gnome/gnome-panel/layout/objects/*
+
+ -- Sophie Brun <sophie@freexian.com>  Thu, 26 Feb 2015 10:51:16 +0100
+
 kali-defaults (2.0~1) kali-dev; urgency=medium
 
   * Update for kali-rolling's gdm.
