@@ -1,3 +1,10 @@
+kali-defaults (2.0~3) kali-dev; urgency=medium
+
+  * Drop the diversion of metacity-theme-3.xml as it's not needed anymore
+   (Closes: 0002141)
+
+ -- Sophie Brun <sophie@freexian.com>  Mon, 02 Mar 2015 11:46:48 +0100
+
 kali-defaults (2.0~2) kali-dev; urgency=medium
 
   [ Sophie Brun ]

@@ -29,7 +29,6 @@ case "$1" in
 	for file in /etc/iceweasel/profile/localstore.rdf \
 		    /etc/iceweasel/profile/bookmarks.html \
 		    /etc/skel/.bashrc \
-		    /usr/share/themes/Adwaita/metacity-1/metacity-theme-3.xml \
 		    /usr/share/gdm/BuiltInSessions/default.desktop
 	do
 	    rm -f $file
