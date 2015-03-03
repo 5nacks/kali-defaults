@@ -19,7 +19,7 @@ button-layout='appmenu:minimize,maximize,close'
 icon-theme='gnome-brave'
 
 [org.gnome.desktop.screensaver]
-picture-uri='file:///usr/share/images/desktop-base/kali.xml'
+picture-uri='file:///usr/share/images/desktop-base/kali-lockscreen.xml'
 
 [org.gnome.nautilus.desktop]
 trash-icon-visible=false
