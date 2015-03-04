@@ -3,6 +3,8 @@ kali-defaults (2.0~3) kali-dev; urgency=medium
   * Drop the diversion of metacity-theme-3.xml as it's not needed anymore
    (Closes: 0002141)
   * Update the lockscreen image with kali-lockscreen.xml (Closes: 0002130)
+  * Update the gnome shell settings with iceweasel and gnome terminal as
+    favorite applications (Closes: 0002150)
 
  -- Sophie Brun <sophie@freexian.com>  Mon, 02 Mar 2015 11:46:48 +0100
 
