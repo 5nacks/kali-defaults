@@ -1,3 +1,10 @@
+kali-defaults (2.0~4) kali-dev; urgency=medium
+
+  * Add a override file for postgresql.service to reduce the size of 
+    shared_buffers if necessary (Closes: 0002149)
+
+ -- Sophie Brun <sophie@freexian.com>  Thu, 12 Mar 2015 16:08:23 +0100
+
 kali-defaults (2.0~3) kali-dev; urgency=medium
 
   * Drop the diversion of metacity-theme-3.xml as it's not needed anymore

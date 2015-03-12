@@ -7,3 +7,5 @@ browser/localstore.rdf usr/share/kali-defaults/
 browser/web usr/share/kali-defaults/
 dconf/user etc/dconf/profile/
 dconf/kali-tweaks etc/dconf/db/local.d/
+postgresql/kali_postgresql.conf lib/systemd/system/postgresql@.service.d/
+postgresql/postgresql_reduce_shared_buffers usr/share/kali-defaults/
