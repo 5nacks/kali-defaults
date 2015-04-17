@@ -30,7 +30,6 @@ TO_DIVERT="
 /etc/iceweasel/profile/localstore.rdf
 /etc/iceweasel/profile/bookmarks.html
 /etc/skel/.bashrc
-/usr/share/gdm/BuiltInSessions/default.desktop
 "
 
 case "$1" in
@@ -47,11 +46,6 @@ case "$1" in
 	fi
 	if dpkg --compare-versions "$2" lt 0.8; then
 	    setup_diversions /etc/skel/.bashrc
-	fi
-	if dpkg --compare-versions "$2" lt 2~; then
-	    setup_diversions /usr/share/gdm/BuiltInSessions/default.desktop
-	    setup_diversion /usr/share/xsessions/gnome-fallback.desktop \
-			    /usr/share/xsessions/default.desktop
 	fi
     ;;
 

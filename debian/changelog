@@ -1,3 +1,10 @@
+kali-defaults (2.0~5) kali-dev; urgency=medium
+
+  * No longer change the default session. Instead we enable the
+    application menu shipped by gnome-shell-extension.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Fri, 17 Apr 2015 11:59:56 +0200
+
 kali-defaults (2.0~4) kali-dev; urgency=medium
 
   * Add a override file for postgresql.service to reduce the size of 

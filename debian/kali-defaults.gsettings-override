@@ -32,3 +32,4 @@ disable-close-confirmation=true
 # Change the gnome shell dash settings
 [org.gnome.shell]
 favorite-apps=['iceweasel.desktop', 'gnome-terminal.desktop', 'evolution.desktop', 'empathy.desktop', 'rhythmbox.desktop', 'libreoffice-writer.desktop', 'org.gnome.Nautilus.desktop', 'yelp.desktop']
+enabled-extensions=['apps-menu@gnome-shell-extensions.gcampax.github.com']

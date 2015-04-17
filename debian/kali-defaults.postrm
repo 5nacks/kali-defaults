@@ -29,13 +29,10 @@ case "$1" in
 	for file in /etc/iceweasel/profile/localstore.rdf \
 		    /etc/iceweasel/profile/bookmarks.html \
 		    /etc/skel/.bashrc \
-		    /usr/share/gdm/BuiltInSessions/default.desktop
 	do
 	    rm -f $file
 	    drop_diversion $file $file.original
 	done
-	drop_diversion /usr/share/xsessions/gnome-fallback.desktop \
-		       /usr/share/xsessions/default.desktop
     ;;
 
     purge|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
@@ -54,4 +51,3 @@ esac
 #DEBHELPER#
 
 exit 0
-
