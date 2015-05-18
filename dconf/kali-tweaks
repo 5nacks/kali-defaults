@@ -24,7 +24,7 @@ location='/usr/share/applications/gnome-terminal.desktop'
 # (the extension doesn't use any schema)
 [org/gnome/shell/extensions/dash-to-dock]
 custom-theme-running-dots=true
-dock-position='BOTTOM'
+dock-position='RIGHT'
 custom-theme-shrink=true
 background-opacity=0.35
 height-fraction=0.90
