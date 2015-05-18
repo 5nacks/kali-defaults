@@ -1,3 +1,13 @@
+kali-defaults (2.0~6) kali-dev; urgency=medium
+
+  * Enable many more GNOME Shell extensions by default: Applications
+    menu, Dash to dock, Places status indicator, Proxy switcher, Refresh
+    wifi connections, Workspace indicator, Easyscreencast
+  * Use EleganZe GNOME Shell theme by default.
+  * Add default settings for GNOME Shell extension dash-to-dock.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Mon, 18 May 2015 18:22:58 +0200
+
 kali-defaults (2.0~5) kali-dev; urgency=medium
 
   * No longer change the default session. Instead we enable the

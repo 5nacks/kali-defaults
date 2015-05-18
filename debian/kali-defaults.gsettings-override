@@ -18,6 +18,9 @@ button-layout='appmenu:minimize,maximize,close'
 [org.gnome.desktop.interface]
 icon-theme='gnome-brave'
 
+[org.gnome.shell.extensions.user-theme]
+name='EleganZe'
+
 [org.gnome.desktop.screensaver]
 picture-uri='file:///usr/share/images/desktop-base/kali-lockscreen.xml'
 
@@ -32,4 +35,4 @@ disable-close-confirmation=true
 # Change the gnome shell dash settings
 [org.gnome.shell]
 favorite-apps=['iceweasel.desktop', 'gnome-terminal.desktop', 'evolution.desktop', 'empathy.desktop', 'rhythmbox.desktop', 'libreoffice-writer.desktop', 'org.gnome.Nautilus.desktop', 'yelp.desktop']
-enabled-extensions=['apps-menu@gnome-shell-extensions.gcampax.github.com']
+enabled-extensions=['apps-menu@gnome-shell-extensions.gcampax.github.com','places-menu@gnome-shell-extensions.gcampax.github.com','workspace-indicator@gnome-shell-extensions.gcampax.github.com','dash-to-dock@micxgx.gmail.com','ProxySwitcher@flannaghan.com','EasyScreenCast@iacopodeenosee.gmail.com','refresh-wifi@kgshank.net']
