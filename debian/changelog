@@ -1,6 +1,7 @@
 kali-defaults (2.0~8) UNRELEASED; urgency=medium
 
   * Fix postrm syntax error introduced in version 2.0~5.
+  * Add some kali specific apps to the GNOME Shell favorites.
 
  -- Raphaël Hertzog <hertzog@debian.org>  Tue, 19 May 2015 08:37:46 +0200
 
