@@ -1,6 +1,7 @@
 kali-defaults (2.0~9) kali-dev; urgency=medium
 
   * Enable extension "user-theme" so that EleganZe theme is actually used.
+  * Drop yelp from the favorites.
 
  -- Raphaël Hertzog <hertzog@debian.org>  Wed, 20 May 2015 15:07:11 +0200
 
