@@ -5,6 +5,7 @@ foreground-color='#FFFFFF'
 background-color='#000000'
 scrollback-unlimited=true
 use-transparent-background=true
+background-transparency-percent=15
 
 [org.gnome.Terminal.Legacy.Settings]
 confirm-close=false

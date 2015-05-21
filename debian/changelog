@@ -1,3 +1,9 @@
+kali-defaults (2.0~12) kali-dev; urgency=medium
+
+  * Define default transparency at 15%.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Thu, 21 May 2015 16:28:26 +0200
+
 kali-defaults (2.0~11) kali-dev; urgency=medium
 
   * Enable transparency in GNOME Terminal and use dark theme option.
