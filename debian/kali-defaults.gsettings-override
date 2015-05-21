@@ -4,9 +4,11 @@ use-theme-colors=false
 foreground-color='#FFFFFF'
 background-color='#000000'
 scrollback-unlimited=true
+use-transparent-background=true
 
 [org.gnome.Terminal.Legacy.Settings]
 confirm-close=false
+dark-theme=true
 
 # Change desktop settings
 [org.gnome.desktop.background]

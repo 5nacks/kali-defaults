@@ -1,3 +1,9 @@
+kali-defaults (2.0~11) kali-dev; urgency=medium
+
+  * Enable transparency in GNOME Terminal and use dark theme option.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Thu, 21 May 2015 09:24:25 +0200
+
 kali-defaults (2.0~10) kali-dev; urgency=medium
 
   * Disable EleganZe as it seems to crash the shell regularly.
