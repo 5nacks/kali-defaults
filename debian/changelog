@@ -1,3 +1,10 @@
+kali-defaults (2.0~10) kali-dev; urgency=medium
+
+  * Disable EleganZe as it seems to crash the shell regularly.
+  * Update dash-to-dock setting so that Shift+Click minimizes the windows.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Thu, 21 May 2015 08:25:19 +0200
+
 kali-defaults (2.0~9) kali-dev; urgency=medium
 
   * Enable extension "user-theme" so that EleganZe theme is actually used.

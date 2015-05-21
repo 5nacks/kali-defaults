@@ -31,3 +31,4 @@ height-fraction=0.90
 opaque-background=true
 dash-max-icon-size=32
 preferred-monitor=0
+minimize-shift=true
