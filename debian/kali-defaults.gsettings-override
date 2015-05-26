@@ -9,7 +9,6 @@ background-transparency-percent=15
 
 [org.gnome.Terminal.Legacy.Settings]
 confirm-close=false
-dark-theme=true
 
 # Change desktop settings
 [org.gnome.desktop.background]

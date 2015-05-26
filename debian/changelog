@@ -1,3 +1,9 @@
+kali-defaults (2.0~13) UNRELEASED; urgency=medium
+
+  * Disable dark theme setting in gnome-terminal.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Tue, 26 May 2015 14:29:09 +0200
+
 kali-defaults (2.0~12) kali-dev; urgency=medium
 
   * Define default transparency at 15%.
