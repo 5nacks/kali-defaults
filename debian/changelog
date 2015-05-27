@@ -1,6 +1,10 @@
-kali-defaults (2.0~13) UNRELEASED; urgency=medium
+kali-defaults (2.0~13) kali-dev; urgency=medium
 
+  [ Raphaël Hertzog ]
   * Disable dark theme setting in gnome-terminal.
+
+  [ Sophie Brun ]
+  * Update gsettings to use gnome-theme-kali
 
  -- Raphaël Hertzog <hertzog@debian.org>  Tue, 26 May 2015 14:29:09 +0200
 
