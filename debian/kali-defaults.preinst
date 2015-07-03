@@ -30,13 +30,12 @@ TO_DIVERT="
 /etc/iceweasel/profile/localstore.rdf
 /etc/iceweasel/profile/bookmarks.html
 /etc/skel/.bashrc
+/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
 "
 
 case "$1" in
     install)
 	setup_diversions $TO_DIVERT
-	setup_diversion /usr/share/xsessions/gnome-fallback.desktop \
-			/usr/share/xsessions/default.desktop
     ;;
 
     upgrade)
@@ -46,6 +45,9 @@ case "$1" in
 	fi
 	if dpkg --compare-versions "$2" lt 0.8; then
 	    setup_diversions /etc/skel/.bashrc
+	fi
+	if dpkg --compare-versions "$2" lt 2.0~14; then
+	    setup_diversions /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
 	fi
     ;;
 

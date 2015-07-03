@@ -1,6 +1,9 @@
-kali-defaults (2.0~14) UNRELEASED; urgency=medium
+kali-defaults (2.0~14) kali-dev; urgency=medium
 
   * Move the dock to the left.
+  * Drop forgotten diversion of /usr/share/xsessions/gnome-fallback.desktop.
+  * Add diversion of /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
+    to set the default theme to the kali one.
 
  -- Raphaël Hertzog <hertzog@debian.org>  Fri, 12 Jun 2015 15:45:57 +0200
 

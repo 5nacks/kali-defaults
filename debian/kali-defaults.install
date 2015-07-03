@@ -5,6 +5,7 @@ browser/kali.js etc/iceweasel/pref/
 browser/bookmarks.html usr/share/kali-defaults/
 browser/localstore.rdf usr/share/kali-defaults/
 browser/web usr/share/kali-defaults/
+xfce/xsettings.xml usr/share/kali-defaults/
 dconf/user etc/dconf/profile/
 dconf/kali-tweaks etc/dconf/db/local.d/
 postgresql/kali_postgresql.conf lib/systemd/system/postgresql@.service.d/
