@@ -20,6 +20,7 @@ if [ "$1" = "configure" ]; then
 	orig_file="/usr/share/kali-defaults/$(basename $file)"
 	if [ ! -e $file ] && [ -e $orig_file ]; then
 	    echo "Installing $orig_file as $file"
+	    mkdir -p $(dirname $file)
 	    cp $orig_file $file
 	fi
     done

@@ -1,3 +1,9 @@
+kali-defaults (2.0~15) kali-dev; urgency=medium
+
+  * Enuser the target directory exists before copying the file.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Sat, 04 Jul 2015 15:57:54 +0200
+
 kali-defaults (2.0~14) kali-dev; urgency=medium
 
   * Move the dock to the left.
