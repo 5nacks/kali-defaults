@@ -1,3 +1,10 @@
+kali-defaults (2.0~16) kali-dev; urgency=medium
+
+  * Add /etc/xdg/xfce4/terminal/terminalrc to set default background
+    in transparent mode at 85% darkness in xfce4-terminal.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Tue, 07 Jul 2015 17:26:14 +0200
+
 kali-defaults (2.0~15) kali-dev; urgency=medium
 
   * Enuser the target directory exists before copying the file.
