@@ -1,3 +1,9 @@
+kali-defaults (2.0~17) kali-dev; urgency=low
+
+  * Add faraday and tweak to favorates
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 23 Jul 2015 11:19:36 -0400
+
 kali-defaults (2.0~16) kali-dev; urgency=medium
 
   * Add /etc/xdg/xfce4/terminal/terminalrc to set default background
