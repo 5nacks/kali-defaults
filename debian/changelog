@@ -1,3 +1,9 @@
+kali-defaults (2.0~18) kali-dev; urgency=low
+
+  * Update browser home page
+
+ -- Mati Aharoni <muts@kali.org>  Mon, 27 Jul 2015 14:50:53 -0400
+
 kali-defaults (2.0~17) kali-dev; urgency=low
 
   * Add faraday and tweak to favorates
