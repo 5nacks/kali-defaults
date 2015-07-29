@@ -1,3 +1,10 @@
+kali-defaults (2.1) kali-dev; urgency=medium
+
+  * Fix installation path of /etc/xdg/xfce/terminal/terminalrc into
+    /etc/xdg/xfce4/terminal/terminalrc.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Wed, 29 Jul 2015 15:48:10 +0200
+
 kali-defaults (2.0~18) kali-dev; urgency=low
 
   * Update browser home page

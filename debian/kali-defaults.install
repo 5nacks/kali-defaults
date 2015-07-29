@@ -6,7 +6,7 @@ browser/bookmarks.html usr/share/kali-defaults/
 browser/localstore.rdf usr/share/kali-defaults/
 browser/web usr/share/kali-defaults/
 xfce/xsettings.xml usr/share/kali-defaults/
-xfce/terminalrc etc/xdg/xfce/terminal/
+xfce/terminalrc etc/xdg/xfce4/terminal/
 dconf/user etc/dconf/profile/
 dconf/kali-tweaks etc/dconf/db/local.d/
 postgresql/kali_postgresql.conf lib/systemd/system/postgresql@.service.d/
