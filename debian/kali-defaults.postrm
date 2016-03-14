@@ -28,6 +28,8 @@ case "$1" in
     remove)
 	for file in /etc/iceweasel/profile/localstore.rdf \
 		    /etc/iceweasel/profile/bookmarks.html \
+		    /etc/firefox-esr/profile/localstore.rdf \
+		    /etc/firefox-esr/profile/bookmarks.html \
 		    /etc/skel/.bashrc \
 		    /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
 	do
