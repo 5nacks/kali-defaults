@@ -29,8 +29,6 @@ setup_diversions() {
 TO_DIVERT="
 /etc/iceweasel/profile/localstore.rdf
 /etc/iceweasel/profile/bookmarks.html
-/etc/firefox-esr/profile/localstore.rdf
-/etc/firefox-esr/profile/bookmarks.html
 /etc/skel/.bashrc
 /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
 "
@@ -50,10 +48,6 @@ case "$1" in
 	fi
 	if dpkg --compare-versions "$2" lt 2.0~14; then
 	    setup_diversions /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
-	fi
-	if dpkg --compare-versions "$2" lt 2016.2.0; then
-	    setup_diversions /etc/firefox-esr/profile/localstore.rdf \
-			     /etc/firefox-esr/profile/bookmarks.html
 	fi
     ;;
 

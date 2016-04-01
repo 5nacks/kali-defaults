@@ -1,4 +1,4 @@
-kali-defaults (2016.2.0) UNRELEASED; urgency=medium
+kali-defaults (2016.2.0) kali-dev; urgency=medium
 
   * Adapt for switch to firefox-esr.
 

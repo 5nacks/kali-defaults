@@ -15,7 +15,6 @@ if [ "$1" = "configure" ]; then
     fi
 
     for file in /etc/iceweasel/profile/localstore.rdf /etc/iceweasel/profile/bookmarks.html \
-		/etc/firefox-esr/profile/localstore.rdf /etc/firefox-esr/profile/bookmarks.html \
 		/etc/skel/.bashrc /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
     do
 	orig_file="/usr/share/kali-defaults/$(basename $file)"
