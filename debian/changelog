@@ -1,6 +1,8 @@
 kali-defaults (2016.2.0) kali-dev; urgency=medium
 
   * Adapt for switch to firefox-esr.
+  * Add pref browser.showPersonalToolbar in kali.js for firefox 47 which might
+    no longer use localstore.rdf
 
  -- Raphaël Hertzog <hertzog@debian.org>  Mon, 14 Mar 2016 14:58:32 +0100
 
