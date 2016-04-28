@@ -1,3 +1,10 @@
+kali-defaults (2016.2.1) kali-dev; urgency=medium
+
+  * Adapt for the new file name of gnome-terminal.desktop:
+    org.gnome.Terminal.desktop
+
+ -- Sophie Brun <sophie@freexian.com>  Thu, 28 Apr 2016 10:38:50 +0200
+
 kali-defaults (2016.2.0) kali-dev; urgency=medium
 
   * Adapt for switch to firefox-esr.
