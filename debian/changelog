@@ -1,3 +1,9 @@
+kali-defaults (2016.2.2) kali-dev; urgency=medium
+
+  * Drop MAC based name for USB network interfaces (Closes: 0003276)
+
+ -- Sophie Brun <sophie@freexian.com>  Wed, 11 May 2016 12:02:09 +0200
+
 kali-defaults (2016.2.1) kali-dev; urgency=medium
 
   * Adapt for the new file name of gnome-terminal.desktop:
