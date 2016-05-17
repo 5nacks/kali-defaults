@@ -1,3 +1,10 @@
+kali-defaults (2016.2.3) kali-dev; urgency=medium
+
+  * Fix name for USB interface to be compatible with systemd version 229-6
+    (see debian bug #824025)
+
+ -- Sophie Brun <sophie@freexian.com>  Tue, 17 May 2016 11:03:12 +0200
+
 kali-defaults (2016.2.2) kali-dev; urgency=medium
 
   * Drop MAC based name for USB network interfaces (Closes: 0003276)
