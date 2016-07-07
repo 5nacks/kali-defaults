@@ -7,6 +7,9 @@ show-desktop-icons=true
 [org.gnome.nautilus.desktop]
 computer-icon-visible=true
 
+[org.gnome.nautilus.icon-view]
+default-zoom-level='small'
+
 [org.gnome.shell.overrides]
 button-layout='close,minimize,maximize'
 

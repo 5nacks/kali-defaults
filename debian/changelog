@@ -1,3 +1,9 @@
+kali-defaults (1.7) kali-dev; urgency=medium
+
+  * Fixing icon sizes in nautilus
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 07 Jul 2016 16:07:47 -0400
+
 kali-defaults (1.6) kali; urgency=low
 
   * Update backround_darkness to 80%
