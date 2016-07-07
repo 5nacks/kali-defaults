@@ -32,6 +32,9 @@ picture-uri='file:///usr/share/images/desktop-base/kali-lockscreen.xml'
 trash-icon-visible=false
 home-icon-visible=false
 
+[org.gnome.nautilus.icon-view]
+default-zoom-level='small'
+
 # Change misc application settings
 [org.gnome.eog.ui]
 disable-close-confirmation=true

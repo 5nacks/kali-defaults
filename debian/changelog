@@ -1,3 +1,9 @@
+kali-defaults (2016.2.4) kali-dev; urgency=medium
+
+  * Reduce default size of nautilus icons to small.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Thu, 07 Jul 2016 22:37:05 +0200
+
 kali-defaults (2016.2.3) kali-dev; urgency=medium
 
   * Fix name for USB interface to be compatible with systemd version 229-6
