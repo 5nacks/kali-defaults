@@ -1,3 +1,9 @@
+kali-defaults (2016.3.0) kali-dev; urgency=medium
+
+  * Disable version validation of GNOME Shell extension.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Thu, 15 Sep 2016 09:03:03 +0200
+
 kali-defaults (2016.2.4) kali-dev; urgency=medium
 
   * Reduce default size of nautilus icons to small.
