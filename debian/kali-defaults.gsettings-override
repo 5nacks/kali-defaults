@@ -25,9 +25,6 @@ gtk-theme='Kali-X'
 [org.gnome.shell.extensions.user-theme]
 name='Kali-X'
 
-[org.gnome.desktop.screensaver]
-picture-uri='file:///usr/share/images/desktop-base/kali-lockscreen.xml'
-
 [org.gnome.nautilus.desktop]
 trash-icon-visible=false
 home-icon-visible=false
