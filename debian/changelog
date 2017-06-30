@@ -1,3 +1,10 @@
+kali-defaults (2017.1.1) kali-dev; urgency=medium
+
+  * Drop enabled-extensions for refreshwifi: the extension is no longer
+    installed because gome-shell version >=3.22.2 has timely scans implemented
+
+ -- Sophie Brun <sophie@freexian.com>  Fri, 30 Jun 2017 15:40:16 +0200
+
 kali-defaults (2017.1.0) kali-dev; urgency=medium
 
   * Drop gsettings override of org.gnome.desktop.screensaver.picture-uri
