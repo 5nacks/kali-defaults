@@ -2,8 +2,7 @@
 52kali_fix_lang etc/X11/Xsession.d/
 .bashrc usr/share/kali-defaults/
 browser/kali.js etc/firefox-esr/
-browser/bookmarks.html usr/share/firefox-esr/browser/defaults/profile/
-browser/localstore.rdf usr/share/firefox-esr/browser/defaults/profile/
+browser/distribution.ini usr/share/firefox-esr/distribution/
 browser/web usr/share/kali-defaults/
 xfce/xsettings.xml usr/share/kali-defaults/
 xfce/terminalrc etc/xdg/xfce4/terminal/

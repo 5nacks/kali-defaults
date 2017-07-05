@@ -1,7 +1,9 @@
 kali-defaults (2017.2.0) kali-dev; urgency=medium
 
-  * Update to use firefox-esr instead of iceweasel (config files) and drop
-    useless diversions for bookmarks.html and localstore.rdf
+  * Update to use firefox-esr instead of iceweasel (config files)
+  * Drop useless diversions for bookmarks.html and localstore.rdf and drop the
+    files (see https://bugzilla.mozilla.org/show_bug.cgi?id=1234012)
+  * Update the bookmarks (see bug 1861) using a distribution.ini file
 
  -- Sophie Brun <sophie@freexian.com>  Wed, 05 Jul 2017 14:21:52 +0200
 
