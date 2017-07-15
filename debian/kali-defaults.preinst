@@ -46,6 +46,9 @@ case "$1" in
         if dpkg --compare-versions "$2" eq 2016.2.2; then
             rm -f /etc/udev/rules.d/73-usb-net-by-mac.rules
         fi
+	if dpkg --compare-versions "$2" lt 2017.2.0; then
+	    setup_diversions /usr/share/firefox-esr/distribution/distribution.ini
+	fi
     ;;
 
     abort-upgrade)

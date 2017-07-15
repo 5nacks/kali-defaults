@@ -22,7 +22,7 @@ if [ "$1" = "configure" ]; then
                         --divert $file.original \
                         --remove $file
         done
-    fi     
+    fi
 
     for file in /etc/skel/.bashrc /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
     do
