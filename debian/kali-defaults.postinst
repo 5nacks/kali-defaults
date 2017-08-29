@@ -24,6 +24,11 @@ if [ "$1" = "configure" ]; then
         done
     fi
 
+    if dpkg --compare-versions "$2" lt-nl 2017.2.1; then
+	rm -f /etc/X11/Xsession.d/52kali_fix_lang
+	rm -f /etc/X11/Xsession.d/52kali_noautomount
+    fi
+
     for file in /etc/skel/.bashrc /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
     do
 	orig_file="/usr/share/kali-defaults/$(basename $file)"

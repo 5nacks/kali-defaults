@@ -1,6 +1,7 @@
 kali-defaults (2017.2.1) UNRELEASED; urgency=medium
 
   * Drop no longer needed work-around (/etc/X11/Xsession.d/52kali_fix_lang).
+  * Implement noautomount feature as an XDG autostart script.
 
  -- Raphaël Hertzog <hertzog@debian.org>  Tue, 29 Aug 2017 10:48:22 +0200
 

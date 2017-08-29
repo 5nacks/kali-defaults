@@ -1,4 +1,3 @@
-52kali_noautomount etc/X11/Xsession.d/
 .bashrc usr/share/kali-defaults/
 browser/kali.js etc/firefox-esr/
 browser/distribution.ini usr/share/firefox-esr/distribution/
@@ -9,3 +8,5 @@ dconf/user etc/dconf/profile/
 dconf/kali-tweaks etc/dconf/db/local.d/
 postgresql/kali_postgresql.conf lib/systemd/system/postgresql@.service.d/
 postgresql/postgresql_reduce_shared_buffers usr/share/kali-defaults/
+noautomount/setup-noautomount usr/share/kali-defaults/
+noautomount/kali-noautomount.desktop etc/xdg/autostart/
