@@ -2,6 +2,8 @@ kali-defaults (2017.2.1) kali-dev; urgency=medium
 
   * Drop no longer needed work-around (/etc/X11/Xsession.d/52kali_fix_lang).
   * Implement noautomount feature as an XDG autostart script.
+  * Bump Standards-Version to 4.1.0.
+  * Bump debhelper compat level to 10.
 
  -- Raphaël Hertzog <hertzog@debian.org>  Tue, 29 Aug 2017 14:30:41 +0200
 
