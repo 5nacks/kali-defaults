@@ -1,3 +1,10 @@
+kali-defaults (2017.3.0) kali-dev; urgency=medium
+
+  * Replace transitional package dconf-tools by dconf-cli and dconf-editor
+   (dconf-tools has been removed)
+
+ -- Sophie Brun <sophie@freexian.com>  Sat, 21 Oct 2017 14:41:54 +0200
+
 kali-defaults (2017.2.1) kali-dev; urgency=medium
 
   * Drop no longer needed work-around (/etc/X11/Xsession.d/52kali_fix_lang).

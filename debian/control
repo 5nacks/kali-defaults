@@ -11,7 +11,8 @@ Vcs-Browser: http://git.kali.org/gitweb/?p=packages/kali-defaults.git;a=summary
 
 Package: kali-defaults
 Architecture: all
-Depends: ${misc:Depends}, libglib2.0-bin, dconf-tools, gnome-brave-icon-theme
+Depends: ${misc:Depends}, libglib2.0-bin, dconf-cli, dconf-editor,
+ gnome-brave-icon-theme
 Description: Kali default settings
  This package implements various default settings
  within Kali.
