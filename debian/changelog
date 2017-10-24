@@ -1,3 +1,9 @@
+kali-defaults (2017.3.1) kali-dev; urgency=medium
+
+  * Drop useless dependency on dconf-editor
+
+ -- Sophie Brun <sophie@freexian.com>  Tue, 24 Oct 2017 09:09:50 +0200
+
 kali-defaults (2017.3.0) kali-dev; urgency=medium
 
   * Replace transitional package dconf-tools by dconf-cli and dconf-editor
