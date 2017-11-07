@@ -1,3 +1,10 @@
+kali-defaults (2017.3.2) kali-dev; urgency=medium
+
+  * Add work-around for PostgreSQL 10 on live image, cf
+    https://bugs.kali.org/view.php?id=4332
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Tue, 07 Nov 2017 15:20:09 +0100
+
 kali-defaults (2017.3.1) kali-dev; urgency=medium
 
   * Drop useless dependency on dconf-editor

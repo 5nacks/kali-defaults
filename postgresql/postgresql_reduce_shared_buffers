@@ -8,3 +8,11 @@ fi
 if [ ${mem_available:-0} -lt 200000 ]; then
   sed -i -e 's/shared_buffers = 128MB/shared_buffers = 64MB/' /etc/postgresql/$1/postgresql.conf
 fi
+
+# Work-around for https://bugs.kali.org/view.php?id=4332
+if [ -d /var/lib/postgresql/$1/pg_commit_ts ]; then
+    # Ensure the directory is copied over in the tmpfs
+    # so that postgresql's fsync() on it succeeds.
+    touch /var/lib/postgresql/$1/pg_commit_ts/.foo
+    rm /var/lib/postgresql/$1/pg_commit_ts/.foo
+fi
