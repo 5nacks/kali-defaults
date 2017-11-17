@@ -1,3 +1,10 @@
+kali-defaults (2017.3.3) UNRELEASED; urgency=medium
+
+  * Drop PostgreSQL work-around which is no longer needed as we have a fix in
+    the kernel.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Fri, 17 Nov 2017 10:19:26 +0100
+
 kali-defaults (2017.3.2) kali-dev; urgency=medium
 
   * Add work-around for PostgreSQL 10 on live image, cf
