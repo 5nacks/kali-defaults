@@ -1,9 +1,14 @@
-kali-defaults (2017.3.3) UNRELEASED; urgency=medium
+kali-defaults (2017.3.3) kali-dev; urgency=medium
 
+  [ Raphaël Hertzog ]
   * Drop PostgreSQL work-around which is no longer needed as we have a fix in
     the kernel.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Fri, 17 Nov 2017 10:19:26 +0100
+  [ Sophie Brun ]
+  * Override pulseaudio.service and pulseaudio.socket to drop
+    ConditionUser!=root
+
+ -- Sophie Brun <sophie@freexian.com>  Tue, 05 Dec 2017 10:40:44 +0100
 
 kali-defaults (2017.3.2) kali-dev; urgency=medium
 

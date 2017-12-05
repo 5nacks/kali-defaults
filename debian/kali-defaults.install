@@ -7,6 +7,8 @@ xfce/terminalrc etc/xdg/xfce4/terminal/
 dconf/user etc/dconf/profile/
 dconf/kali-tweaks etc/dconf/db/local.d/
 postgresql/kali_postgresql.conf lib/systemd/system/postgresql@.service.d/
+pulseaudio/kali_pulseaudio.conf /usr/lib/systemd/user/pulseaudio.service.d/
+pulseaudio/kali_pulseaudio.socket.conf /usr/lib/systemd/user/pulseaudio.socket.d/
 postgresql/postgresql_reduce_shared_buffers usr/share/kali-defaults/
 noautomount/setup-noautomount usr/share/kali-defaults/
 noautomount/kali-noautomount.desktop etc/xdg/autostart/
