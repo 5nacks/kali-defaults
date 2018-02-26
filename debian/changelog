@@ -1,3 +1,9 @@
+kali-defaults (2018.2.0) kali-dev; urgency=medium
+
+  * Add kali.training ti Firefox Bookmarks (bug 4554)
+
+ -- Sophie Brun <sophie@freexian.com>  Mon, 26 Feb 2018 15:08:58 +0100
+
 kali-defaults (2017.3.3) kali-dev; urgency=medium
 
   [ Raphaël Hertzog ]
