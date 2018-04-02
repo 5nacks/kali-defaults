@@ -1,9 +1,15 @@
-kali-defaults (2018.2.0) kali-dev; urgency=medium
+kali-defaults (2018.2.1) kali-dev; urgency=medium
 
   * Add /etc/profile.d/kali.sh to add */sbin directories in the default
     PATH for all users.
 
  -- Raphaël Hertzog <hertzog@debian.org>  Mon, 02 Apr 2018 22:01:52 +0200
+
+kali-defaults (2018.2.0) kali-dev; urgency=medium
+
+  * Add kali.training ti Firefox Bookmarks (bug 4554)
+
+ -- Sophie Brun <sophie@freexian.com>  Mon, 26 Feb 2018 15:08:58 +0100
 
 kali-defaults (2017.3.3) kali-dev; urgency=medium
 
