@@ -1,3 +1,11 @@
+kali-defaults (2018.3.0) kali-dev; urgency=medium
+
+  * Drop gnome-brave-icon-theme from Depends. Once upon a time, it was
+    the default icon theme but that's no longer the case. Nowadays such
+    dependencies are in kali-desktop-common.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Wed, 04 Jul 2018 08:09:42 +0200
+
 kali-defaults (2018.2.1) kali-dev; urgency=medium
 
   * Add /etc/profile.d/kali.sh to add */sbin directories in the default
