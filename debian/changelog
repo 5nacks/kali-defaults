@@ -1,3 +1,10 @@
+kali-defaults (2018.4.0) kali-dev; urgency=medium
+
+  * Change the gsettings-override: icons on desktop are not anymore handled by
+    Nautilus, but by the extension desktop-icons.
+
+ -- Sophie Brun <sophie@freexian.com>  Wed, 24 Oct 2018 10:44:50 +0200
+
 kali-defaults (2018.3.0) kali-dev; urgency=medium
 
   * Drop gnome-brave-icon-theme from Depends. Once upon a time, it was
