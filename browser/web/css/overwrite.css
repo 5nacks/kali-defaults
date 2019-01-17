@@ -898,14 +898,16 @@ font-size: 10px;
 .navbar .nav > li > a {
   float: none;
   font-size:13px;
+  font-size:0.68em;
   padding: 10px 0 10px;
   margin-left:20px;
   margin-right:0;
-  color: #999999;
+  color: #999999; /* style.css supersedes this */
   text-decoration: none;
   text-shadow: none;
   border-right:none;
   border-left:none;
+  font-weight:600;
 }
 
 .navbar .nav > li > a:hover,
