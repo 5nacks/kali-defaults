@@ -6,8 +6,8 @@ Uploaders: Raphaël Hertzog <hertzog@debian.org>
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.1.1
 Homepage: http://www.kali.org
-Vcs-Git: git://git.kali.org/packages/kali-defaults.git
-Vcs-Browser: http://git.kali.org/gitweb/?p=packages/kali-defaults.git;a=summary
+Vcs-Git: https://gitlab.com/kalilinux/packages/kali-defaults.git
+Vcs-Browser: https://gitlab.com/kalilinux/packages/kali-defaults
 
 Package: kali-defaults
 Architecture: all
