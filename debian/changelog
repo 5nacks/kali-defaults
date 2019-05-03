@@ -1,3 +1,9 @@
+kali-defaults (2019.2.0) kali-dev; urgency=medium
+
+  * Drop armitage from favorite apps in the left panel.
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Fri, 03 May 2019 21:14:06 +0200
+
 kali-defaults (2019.1.2) kali-dev; urgency=medium
 
   * Update Kali homepage
