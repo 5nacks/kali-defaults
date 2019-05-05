@@ -37,7 +37,7 @@ disable-close-confirmation=true
 
 # Change the gnome shell dash settings
 [org.gnome.shell]
-favorite-apps=['firefox-esr.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Nautilus.desktop', 'kali-msfconsole.desktop', 'kali-burpsuite.desktop', 'kali-maltego.desktop', 'kali-beef.desktop', 'kali-faraday.desktop','leafpad.desktop','gnome-tweak-tool.desktop']
+favorite-apps=['org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop', 'leafpad.desktop', 'firefox-esr.desktop', 'kali-burpsuite.desktop', 'zenmap-root.desktop', 'kali-msfconsole.desktop', 'cherrytree.desktop', 'kali-maltego.desktop', 'kismet.desktop', 'kali-fern-wifi-cracker.desktop']
 enabled-extensions=['apps-menu@gnome-shell-extensions.gcampax.github.com','places-menu@gnome-shell-extensions.gcampax.github.com','workspace-indicator@gnome-shell-extensions.gcampax.github.com','dash-to-dock@micxgx.gmail.com','ProxySwitcher@flannaghan.com','EasyScreenCast@iacopodeenosee.gmail.com','user-theme@gnome-shell-extensions.gcampax.github.com','desktop-icons@csoriano']
 disable-extension-version-validation=true
 

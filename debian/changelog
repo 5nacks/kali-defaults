@@ -1,3 +1,9 @@
+kali-defaults (2019.3.0) UNRELEASED; urgency=medium
+
+  * Change GNOME fav tools
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Sun, 05 May 2019 21:58:49 +0100
+
 kali-defaults (2019.2.0) kali-dev; urgency=medium
 
   * Drop armitage from favorite apps in the left panel.
