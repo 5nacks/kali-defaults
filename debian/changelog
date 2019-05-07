@@ -1,12 +1,7 @@
-kali-defaults (2019.3.1) UNRELEASED; urgency=medium
+kali-defaults (2019.3.0) UNRELEASED; urgency=medium
 
   * Remove Firefox Update page
   * Remove Getting Started bookmark
-
- -- Ben Wilson <g0tmi1k@kali.org>  Sun, 05 May 2019 22:25:24 +0100
-
- kali-defaults (2019.3.0) UNRELEASED; urgency=medium
-
   * Change GNOME fav tools
 
  -- Ben Wilson <g0tmi1k@kali.org>  Sun, 05 May 2019 21:58:49 +0100
