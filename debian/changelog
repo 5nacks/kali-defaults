@@ -1,3 +1,10 @@
+kali-defaults (2019.3.0) kali-dev; urgency=medium
+
+  * Fix MSFU bookmark title
+  * Drop maltego from favorite apps in the left panel
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Wed, 08 May 2019 17:32:05 +0100
+
 kali-defaults (2019.2.1) kali-dev; urgency=medium
 
   * Remove Firefox Update page
