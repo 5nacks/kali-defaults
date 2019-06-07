@@ -5,7 +5,7 @@ Maintainer: Kali Developers <devel@kali.org>
 Uploaders: Raphaël Hertzog <hertzog@debian.org>
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.1.1
-Homepage: http://www.kali.org
+Homepage: https://www.kali.org
 Vcs-Git: https://gitlab.com/kalilinux/packages/kali-defaults.git
 Vcs-Browser: https://gitlab.com/kalilinux/packages/kali-defaults
 
