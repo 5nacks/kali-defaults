@@ -1,3 +1,9 @@
+kali-defaults (2019.3.1) kali-dev; urgency=medium
+
+  * Add kali_treecd to profile.d
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Mon, 10 Jun 2019 14:09:15 +0100
+
 kali-defaults (2019.3.0) kali-dev; urgency=medium
 
   * Fix MSFU bookmark title
@@ -278,7 +284,7 @@ kali-defaults (2.0~5) kali-dev; urgency=medium
 
 kali-defaults (2.0~4) kali-dev; urgency=medium
 
-  * Add a override file for postgresql.service to reduce the size of 
+  * Add a override file for postgresql.service to reduce the size of
     shared_buffers if necessary (Closes: 0002149)
 
  -- Sophie Brun <sophie@freexian.com>  Thu, 12 Mar 2015 16:08:23 +0100
@@ -368,9 +374,9 @@ kali-defaults (0.5) kali; urgency=low
 
   * Provide /etc/iceweasel/{pref,profile}/ so that the postinst never fails
     even if iceweasel is not yet installed.
-  * Fix postinst check. 
+  * Fix postinst check.
   * Install /etc/iceweasel/pref/kali.js instead of diverting
-    /etc/iceweasel/profile/prefs.js. 
+    /etc/iceweasel/profile/prefs.js.
   * Cleanup localstore.rdf to only keep the setting about the personal
     toolbar.
   * Properly setup diversions in the upgrade case too.
@@ -423,6 +429,6 @@ kali-defaults (0.1-1kali1) kali; urgency=low
 
 kali-defaults (0.1-1kali0) kali; urgency=low
 
-  * Initial release 
+  * Initial release
 
  -- Devon Kearns <dookie@kali.org>  Thu, 24 Jan 2013 13:47:40 -0700
