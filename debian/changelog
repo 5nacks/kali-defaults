@@ -1,3 +1,9 @@
+kali-defaults (2019.3.2) kali-dev; urgency=medium
+
+  * Kali_treecd: Switching to file rather than profile.d
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Tue, 11 Jun 2019 15:42:43 +0100
+
 kali-defaults (2019.3.1) kali-dev; urgency=medium
 
   * Add kali_treecd to profile.d
