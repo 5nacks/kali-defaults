@@ -14,3 +14,4 @@ noautomount/setup-noautomount usr/share/kali-defaults/
 noautomount/kali-noautomount.desktop etc/xdg/autostart/
 profile.d/* etc/profile.d/
 debian/helper-script/kali_treecd usr/bin/
+debian/helper-script/kali_winexec usr/bin/
