@@ -32,7 +32,7 @@ if [ "$( which tree )" ]; then
     || folder=""
 
   ## Using tree - display output
-  tree ${folder} -L ${depth} --prune --noreport "${location}"
+  tree ${folder} -L ${depth} --noreport "${location}"
 else
   ## Feedback - Location
   echo "${location}"
