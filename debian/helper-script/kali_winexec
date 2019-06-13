@@ -1,0 +1,38 @@
+#!/bin/sh
+
+## Quit if anything goes wrong
+set -e
+
+
+## Location to use: /usr/share/example (default to /)
+location="${1-/}"
+## filename name: example.exe
+filename="$2"
+
+
+## Quick how to use this
+[ -z "${filename}" ] \
+ && echo "[-] ERROR: Missing filename. $0 <location> <filename>" \
+ && exit
+
+
+## Move two down, due to arguments
+shift
+shift
+
+
+## Find the architecture
+arch=$( dpkg --print-architecture )
+
+
+## Check to see if 64-bit, or if wine32 is already installed
+if [ "${arch}" = 'amd64' ] || [ "${arch}" = 'arm64' ] && [ $( dpkg -s wine32 2>/dev/null | grep -c "ok installed" ) -eq 0 ]; then
+  ## Give a heads up with what todo
+  echo "[i] You may need to install the wine32 package first..."
+  echo "  # dpkg --add-architecture i386 && apt update && apt -y install wine32"
+  echo
+fi
+
+## Move into folder and execute
+cd "${location}/" \
+  && wine "${filename}" $@

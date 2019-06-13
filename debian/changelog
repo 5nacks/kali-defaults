@@ -1,3 +1,9 @@
+kali-defaults (2019.3.3) kali-dev; urgency=medium
+
+  * Add kali_winexec
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Thu, 13 Jun 2019 10:45:03 +0100
+
 kali-defaults (2019.3.2) kali-dev; urgency=medium
 
   * Kali_treecd: Switching to file rather than profile.d
