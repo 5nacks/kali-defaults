@@ -1,0 +1,14 @@
+#!/bin/sh
+
+sudo apt update \
+  || echo -e '\n[-] Issue with apt update' 1>&2
+
+if ( sudo dmidecode | grep -iq vmware ); then
+  echo "[+] Installing VMware tools"
+  sudo apt -y -qq install open-vm-tools-desktop fuse \
+    || echo -e '\n[-] Issue with apt install' 1>&2
+elif ( sudo dmidecode | grep -iq virtualbox ); then
+  echo "[+] Installing VirtualBox's guest additions"
+  sudo apt -y -qq install virtualbox-guest-x11 \
+    || echo -e '\n[-] Issue with apt install' 1>&2
+fi
