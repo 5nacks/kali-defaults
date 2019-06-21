@@ -1,3 +1,10 @@
+kali-defaults (2019.3.6) kali-dev; urgency=medium
+
+  * Improved kali-setup
+  * Rename kali_ to kali-
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Fri, 21 Jun 2019 18:43:56 +0100
+
 kali-defaults (2019.3.5) kali-dev; urgency=medium
 
   * Add kali-setup
