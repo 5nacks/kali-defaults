@@ -1,14 +1,52 @@
 #!/bin/sh
 
-sudo apt update \
-  || echo -e '\n[-] Issue with apt update' 1>&2
 
-if ( sudo dmidecode | grep -iq vmware ); then
-  echo "[+] Installing VMware tools"
-  sudo apt -y -qq install open-vm-tools-desktop fuse \
-    || echo -e '\n[-] Issue with apt install' 1>&2
-elif ( sudo dmidecode | grep -iq virtualbox ); then
-  echo "[+] Installing VirtualBox's guest additions"
-  sudo apt -y -qq install virtualbox-guest-x11 \
-    || echo -e '\n[-] Issue with apt install' 1>&2
+## Get hardware info
+tmp=$( sudo dmidecode )
+
+
+## Check to see if VMware is listed
+if ( echo "${tmp}" | grep -iq vmware ); then
+  ## Feedback
+  echo "[+] Detected VM (VMware)"
+
+  ## Check to see if Open-VM-Tools is already installed
+  if ( dpkg -l | grep -q open-vm-tools ); then
+    ## Feedback
+    echo "[+] VMware tools is already installed"
+  else
+    ## Feedback
+    echo "[+] Installing VMware tools"
+
+    ## Update repos
+    sudo apt-get -qq update \
+      || echo -e '\n[-] Issue with apt-get update' 1>&2
+
+    # Install packages
+    sudo apt-get -y -qq install open-vm-tools-desktop fuse \
+      || echo -e '\n[-] Issue with apt-get install' 1>&2
+  fi
+elif ( echo "${tmp}" | grep -iq virtualbox ); then
+  ## Feedback
+  echo "[+] Detected VM (VirtualBox)"
+
+   ## Check to see if Open-VM-Tools is already installed
+  if ( dpkg -l | grep -q virtualbox-guest-x11 ); then
+    ## Feedback
+    echo "[+] VirtualBox's guest additions is already installed"
+  else
+    ## Feedback
+    echo "[+] Installing VirtualBox's guest additions"
+
+    ## Update repos
+    sudo apt-get update \
+      || echo -e '\n[-] Issue with apt-get update' 1>&2
+
+    # Install packages
+    sudo apt-get -y -qq install virtualbox-guest-x11 \
+      || echo -e '\n[-] Issue with apt-get install' 1>&2
+  fi
 fi
+
+
+echo '[i] Done'
