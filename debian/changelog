@@ -1,3 +1,9 @@
+kali-defaults (2019.3.7) kali-dev; urgency=medium
+
+  * Change GNOME fav, set dash-to-dock settings
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Wed, 17 Jul 2019 13:59:33 +0100
+
 kali-defaults (2019.3.6) kali-dev; urgency=medium
 
   * Improved kali-setup
