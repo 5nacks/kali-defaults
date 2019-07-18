@@ -1,3 +1,9 @@
+kali-defaults (2019.3.8) kali-dev; urgency=medium
+
+  * Recover dash-to-dock
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Thu, 18 Jul 2019 18:48:36 +0100
+
 kali-defaults (2019.3.7) kali-dev; urgency=medium
 
   * Change GNOME fav, set dash-to-dock settings

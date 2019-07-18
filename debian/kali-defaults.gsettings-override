@@ -33,7 +33,7 @@ icon-size='small'
 
 # Gnome's Dash-To-Dock - Disable hiding dock
 [org.gnome.shell.extensions.dash-to-dock]
-dock-fixed=false
+dock-fixed=true
 intellihide=false
 autohide=false
 
