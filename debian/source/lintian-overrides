@@ -1,0 +1,2 @@
+# Ignore missing sources
+source-is-missing browser/web/*

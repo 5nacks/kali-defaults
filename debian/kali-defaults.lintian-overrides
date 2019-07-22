@@ -1,0 +1,2 @@
+# We want to override the file in /lib so we can't ship it in /lib/
+udev-rule-in-etc etc/udev/rules.d/73-usb-net-by-mac.rules
