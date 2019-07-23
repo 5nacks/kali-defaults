@@ -28,6 +28,7 @@ case "$1" in
     remove)
 	for file in /etc/skel/.bashrc \
 		    /usr/share/firefox-esr/distribution/distribution.ini \
+		    /etc/xdg/autostart/gnome-software-service.desktop \
 		    /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
 	do
 	    rm -f $file

@@ -28,6 +28,7 @@ setup_diversions() {
 
 TO_DIVERT="
 /etc/skel/.bashrc
+/etc/xdg/autostart/gnome-software-service.desktop
 /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
 /usr/share/firefox-esr/distribution/distribution.ini
 "
@@ -49,6 +50,9 @@ case "$1" in
         fi
 	if dpkg --compare-versions "$2" lt 2017.2.0; then
 	    setup_diversions /usr/share/firefox-esr/distribution/distribution.ini
+	fi
+	if dpkg --compare-versions "$2" lt 2019.3.9; then
+	    setup_diversions /etc/xdg/autostart/gnome-software-service.desktop
 	fi
     ;;
 
