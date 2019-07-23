@@ -29,6 +29,7 @@ setup_diversions() {
 TO_DIVERT="
 /etc/skel/.bashrc
 /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
+/usr/share/firefox-esr/distribution/distribution.ini
 "
 
 case "$1" in
