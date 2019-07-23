@@ -56,3 +56,8 @@ screenreader='<Alt><Mod4>s'
 download-updates=false
 download-updates-notify=false
 allow-updates=false
+
+# Disable network searches in dashboard
+[org.gnome.desktop.search-providers]
+disable-external=true
+disabled=['org.gnome.Calculator.desktop']
