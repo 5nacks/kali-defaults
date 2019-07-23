@@ -11,6 +11,7 @@
       "URL": "file:///usr/share/kali-defaults/web/homepage.html",
       "Locked": false,
       "StartPage": "homepage"
-    }
+    },
+    "DisableTelemetry": true
   }
 }
