@@ -1,3 +1,17 @@
+kali-defaults (2019.3.9) kali-dev; urgency=medium
+
+  * Add GitLab's CI configuration file
+  * Add lintian overrides to please lintian test on GitLab CI
+  * Change default search engine to DuckDuckGo
+  * Disable the default bookmarks displayed by Firefox
+  * Move the remaining preferences into policies.json
+  * Disable telemetry in Firefox
+  * Disable background downloads by GNOME Software
+  * Disable GNOME search providers using network resources
+  * Disable gnome-software-service on session startup
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Tue, 23 Jul 2019 16:54:01 +0200
+
 kali-defaults (2019.3.8) kali-dev; urgency=medium
 
   * Recover dash-to-dock
