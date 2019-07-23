@@ -3,6 +3,14 @@
     "SearchEngines": {
       "Default": "DuckDuckGo"
     },
-    "NoDefaultBookmarks": true
+    "DisplayBookmarksToolbar": true,
+    "NoDefaultBookmarks": true,
+    "OverrideFirstRunPage": "",
+    "OverridePostUpdatePage": "http://example.org",
+    "Homepage": {
+      "URL": "file:///usr/share/kali-defaults/web/homepage.html",
+      "Locked": false,
+      "StartPage": "homepage"
+    }
   }
 }
