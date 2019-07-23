@@ -2,6 +2,7 @@
   "policies": {
     "SearchEngines": {
       "Default": "DuckDuckGo"
-    }
+    },
+    "NoDefaultBookmarks": true
   }
 }
