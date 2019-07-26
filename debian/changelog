@@ -1,3 +1,9 @@
+kali-defaults (2019.3.10) kali-dev; urgency=medium
+
+  * Switch back to Google for now.
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Fri, 26 Jul 2019 16:25:46 +0200
+
 kali-defaults (2019.3.9) kali-dev; urgency=medium
 
   * Add GitLab's CI configuration file
