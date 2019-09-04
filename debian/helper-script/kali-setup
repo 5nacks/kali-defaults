@@ -26,6 +26,39 @@ if ( echo "${tmp}" | grep -iq vmware ); then
     sudo apt-get -y -qq install open-vm-tools-desktop fuse \
       || echo -e '\n[-] Issue with apt-get install' 1>&2
   fi
+
+  if ! [ -f /usr/local/sbin/mount-shared-folders ]; then
+    echo "[+] Adding mount-shared-folders"
+    sudo bash -c "cat <<EOF > /usr/local/sbin/mount-shared-folders
+#!/bin/sh
+vmware-hgfsclient | while read folder; do
+  vmwpath=\"/mnt/hgfs/\\\${folder}\"
+  echo \"[i] Mounting \\\${folder}   (\\\${vmwpath})\"
+  sudo mkdir -p \"\\\${vmwpath}\"
+  sudo umount -f \"\\\${vmwpath}\" 2>/dev/null
+  sudo vmhgfs-fuse -o allow_other -o auto_unmount \".host:/\\\${folder}\" \"\\\${vmwpath}\"
+done
+sleep 2s
+EOF
+"
+    sudo chmod +x /usr/local/sbin/mount-shared-folders
+  fi
+
+  if ! [ -f /usr/local/sbin/restart-vm-tools ]; then
+    echo "[+] Adding restart-vm-tools"
+    sudo bash -c "cat <<EOF > /usr/local/sbin/restart-vm-tools
+#!/bin/sh
+systemctl stop run-vmblock\\\\\\x2dfuse.mount
+sudo killall -q -w vmtoolsd
+systemctl start run-vmblock\\\\\\x2dfuse.mount
+systemctl enable run-vmblock\\\\\\x2dfuse.mount
+sudo vmware-user-suid-wrapper vmtoolsd -n vmusr 2>/dev/null
+sudo vmtoolsd -b /var/run/vmroot 2>/dev/null
+EOF
+"
+    sudo chmod +x /usr/local/sbin/restart-vm-tools
+  fi
+
 elif ( echo "${tmp}" | grep -iq virtualbox ); then
   ## Feedback
   echo "[+] Detected VM (VirtualBox)"
