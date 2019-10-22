@@ -1,29 +1,10 @@
 # Change default terminal settings
-[org.gnome.Terminal.Legacy.Profile]
-use-theme-colors=false
-foreground-color='#FFFFFF'
-background-color='#000000'
-scrollback-unlimited=true
-use-transparent-background=true
-background-transparency-percent=15
-
 [org.gnome.Terminal.Legacy.Settings]
 confirm-close=false
 
 # Change desktop settings
 [org.gnome.desktop.background]
 show-desktop-icons=true
-
-[org.gnome.desktop.wm.preferences]
-button-layout='appmenu:minimize,maximize,close'
-theme='Kali-X'
-
-[org.gnome.desktop.interface]
-icon-theme='Vibrancy-Kali'
-gtk-theme='Kali-X'
-
-[org.gnome.shell.extensions.user-theme]
-name='Kali-X'
 
 # Change desktop-icons default values
 [org.gnome.shell.extensions.desktop-icons]

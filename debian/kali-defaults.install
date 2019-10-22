@@ -3,8 +3,6 @@ browser/kali.js etc/firefox-esr/
 browser/distribution.ini usr/share/firefox-esr/distribution/
 browser/policies.json usr/share/firefox-esr/distribution/
 browser/web usr/share/kali-defaults/
-xfce/xsettings.xml usr/share/kali-defaults/
-xfce/terminalrc etc/xdg/xfce4/terminal/
 dconf/user etc/dconf/profile/
 dconf/kali-tweaks etc/dconf/db/local.d/
 postgresql/kali_postgresql.conf lib/systemd/system/postgresql@.service.d/

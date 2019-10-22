@@ -29,7 +29,7 @@ if [ "$1" = "configure" ]; then
 	rm -f /etc/X11/Xsession.d/52kali_noautomount
     fi
 
-    for file in /etc/skel/.bashrc /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
+    for file in /etc/skel/.bashrc
     do
 	orig_file="/usr/share/kali-defaults/$(basename $file)"
 	if [ ! -e $file ] && [ -e $orig_file ]; then

@@ -29,7 +29,6 @@ setup_diversions() {
 TO_DIVERT="
 /etc/skel/.bashrc
 /etc/xdg/autostart/gnome-software-service.desktop
-/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
 /usr/share/firefox-esr/distribution/distribution.ini
 "
 
@@ -41,9 +40,6 @@ case "$1" in
     upgrade)
 	if dpkg --compare-versions "$2" lt 0.8; then
 	    setup_diversions /etc/skel/.bashrc
-	fi
-	if dpkg --compare-versions "$2" lt 2.0~14; then
-	    setup_diversions /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
 	fi
         if dpkg --compare-versions "$2" eq 2016.2.2; then
             rm -f /etc/udev/rules.d/73-usb-net-by-mac.rules

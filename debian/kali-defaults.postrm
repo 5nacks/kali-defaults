@@ -28,8 +28,7 @@ case "$1" in
     remove)
 	for file in /etc/skel/.bashrc \
 		    /usr/share/firefox-esr/distribution/distribution.ini \
-		    /etc/xdg/autostart/gnome-software-service.desktop \
-		    /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
+		    /etc/xdg/autostart/gnome-software-service.desktop
 	do
 	    rm -f $file
 	    drop_diversion $file $file.original
