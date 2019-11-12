@@ -1,25 +1,3 @@
-# Add two default launchers in gnome-panel
-[org/gnome/gnome-panel/layout]
-object-id-list=['browser', 'terminal']
-
-[org/gnome/gnome-panel/layout/objects/browser]
-object-iid='PanelInternalFactory::Launcher'
-pack-index=1
-pack-type='start'
-toplevel-id='top-panel-0'
-
-[org/gnome/gnome-panel/layout/objects/browser/instance-config]
-location='/usr/share/applications/firefox-esr.desktop'
-
-[org/gnome/gnome-panel/layout/objects/terminal]
-object-iid='PanelInternalFactory::Launcher'
-pack-index=2
-pack-type='start'
-toplevel-id='top-panel-0'
-
-[org/gnome/gnome-panel/layout/objects/terminal/instance-config]
-location='/usr/share/applications/org.gnome.Terminal.desktop'
-
 # Override default settings of GNOME Shell extension dash-to-dock
 # (the extension doesn't use any schema)
 [org/gnome/shell/extensions/dash-to-dock]
