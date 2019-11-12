@@ -1,3 +1,12 @@
+kali-defaults (2019.4.1) kali-dev; urgency=medium
+
+  * Drop gnome-panel dconf settings, we're not using gnome-panel anymore
+  * Move dash-to-dock settings from raw dconf to gsettings
+  * Disable network-manager applet notifications that show up on every boot on
+    live image
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Tue, 12 Nov 2019 11:39:52 +0100
+
 kali-defaults (2019.4.0) kali-experimental; urgency=medium
 
   * Remove xfce theme files: moved to kali-themes
