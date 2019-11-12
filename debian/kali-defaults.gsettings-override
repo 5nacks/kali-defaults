@@ -12,11 +12,16 @@ show-trash=false
 show-home=false
 icon-size='small'
 
-# Gnome's Dash-To-Dock - Disable hiding dock
+# Gnome's Dash-To-Dock
 [org.gnome.shell.extensions.dash-to-dock]
 dock-fixed=true
+dock-position='LEFT'
 intellihide=false
 autohide=false
+custom-theme-shrink=true
+background-opacity=0.35
+dash-max-icon-size=32
+minimize-shift=true
 
 # Change misc application settings
 [org.gnome.eog.ui]
