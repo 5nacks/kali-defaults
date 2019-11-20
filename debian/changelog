@@ -1,3 +1,9 @@
+kali-defaults (2019.4.2) kali-dev; urgency=medium
+
+  * Updated favicons
+
+ --  <g0tmi1k@kali.org>  Wed, 20 Nov 2019 20:56:39 +0000
+
 kali-defaults (2019.4.1) kali-dev; urgency=medium
 
   * Drop gnome-panel dconf settings, we're not using gnome-panel anymore
