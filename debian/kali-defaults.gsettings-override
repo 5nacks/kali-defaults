@@ -22,6 +22,7 @@ custom-theme-shrink=true
 background-opacity=0.35
 dash-max-icon-size=32
 minimize-shift=true
+show-trash=false
 
 # Change misc application settings
 [org.gnome.eog.ui]
