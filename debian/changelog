@@ -1,3 +1,15 @@
+kali-defaults (2020.1.0) kali-dev; urgency=medium
+
+  * Don't use MAC-based name for wifi network devices.
+    To achieve this we create /etc/systemd/network/73-usb-net-by-mac.link as
+    a symlink to /dev/null.
+    This disables Debian's policy to rename the wifi interface name
+    with an MAC-based identifier. udev 244-2 started to use
+    /lib/systemd/network/73-usb-net-by-mac.link to achieve this
+    instead of former /lib/udev/rules.d/73-usb-net-by-mac.rules.
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Mon, 09 Dec 2019 14:53:50 +0100
+
 kali-defaults (2019.4.3) kali-dev; urgency=medium
 
   * Disable trash icon in dash to dock
