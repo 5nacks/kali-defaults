@@ -1,2 +1,4 @@
-# We want to override the file in /lib so we can't ship it in /lib/
-udev-rule-in-etc etc/udev/rules.d/73-usb-net-by-mac.rules
+# Yeah, it's not very clean but we don't really care
+font-outside-font-dir usr/share/kali-defaults/web/fonts/*
+font-in-non-font-package usr/share/kali-defaults/web/fonts/*
+embedded-javascript-library usr/share/kali-defaults/web/*
