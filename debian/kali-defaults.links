@@ -1,2 +1,2 @@
 dev/null etc/systemd/network/99-default.link
-dev/null etc/udev/rules.d/73-usb-net-by-mac.rules
+dev/null etc/systemd/network/73-usb-net-by-mac.link

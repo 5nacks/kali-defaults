@@ -12,6 +12,7 @@ Vcs-Browser: https://gitlab.com/kalilinux/packages/kali-defaults
 Package: kali-defaults
 Architecture: all
 Depends: ${misc:Depends}, libglib2.0-bin
+Breaks: udev (<< 244-2)
 Description: Kali default settings
  This package implements various default settings
  within Kali.
