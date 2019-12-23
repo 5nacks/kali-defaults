@@ -1,3 +1,9 @@
+kali-defaults (2020.1.1) kali-dev; urgency=medium
+
+  * Fix favicons
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Mon, 23 Dec 2019 17:00:01 +0000
+
 kali-defaults (2020.1.0) kali-dev; urgency=medium
 
   * Don't use MAC-based name for wifi network devices.
