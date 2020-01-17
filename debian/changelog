@@ -1,3 +1,15 @@
+kali-defaults (2020.1.2) kali-dev; urgency=medium
+
+  [ Daniel Ruiz de Alegría ]
+  * Increase dash icon-size to 48px
+  * Enable dash-to-dock intellihide
+  * Replace gnome dash gnome-terminal shortcut with qterminal
+  * Configure nautilus to show directories before files
+  * Add gnome-shell keybindings
+  * Hide gnome's image-viewer sidebar
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Fri, 17 Jan 2020 18:06:02 +0100
+
 kali-defaults (2020.1.1) kali-dev; urgency=medium
 
   * Fix favicons
