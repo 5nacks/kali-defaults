@@ -29,6 +29,9 @@ show-trash=false
 [org.gnome.eog.ui]
 disable-close-confirmation=true
 
+[org.gtk.Settings.FileChooser]
+sort-directories-first=true
+
 # Change the Gnome shell dash settings
 [org.gnome.shell]
 favorite-apps=['org.gnome.Nautilus.desktop', 'firefox-esr.desktop', 'qterminal.desktop', 'gedit.desktop', 'kali-msfconsole.desktop', 'kali-burpsuite.desktop', 'zenmap-root.desktop', 'cherrytree.desktop']
