@@ -57,3 +57,11 @@ allow-updates=false
 [org.gnome.desktop.search-providers]
 disable-external=true
 disabled=['org.gnome.Calculator.desktop']
+
+# Add gnome-shell keybindings
+[org.gnome.desktop.wm.keybindings]
+show-desktop = ['<Primary><Super>d','<Primary><Alt>d','<Super>d']
+switch-applications = ['<Super>Tab']
+switch-windows = ['<Alt>Tab']
+switch-applications-backward = ['<Shift><Super>Tab']
+switch-windows-backward = ['<Shift><Alt>Tab']
