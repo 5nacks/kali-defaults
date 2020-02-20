@@ -1,3 +1,13 @@
+kali-defaults (2020.2.0) kali-dev; urgency=medium
+
+  * Disable Firefox features that resulted in network queries at startup
+    * DNS prefetching
+    * DNS over HTTPS
+    * Captive portal detection
+    * Dynamic content on default homepage
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Thu, 20 Feb 2020 14:31:50 +0100
+
 kali-defaults (2020.1.2) kali-dev; urgency=medium
 
   [ Daniel Ruiz de Alegría ]
