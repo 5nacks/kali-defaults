@@ -38,6 +38,11 @@ if [ "$1" = "configure" ]; then
 	    cp $orig_file $file
 	fi
     done
+
+    if [ ! -e /root/.face ]; then
+        cp /usr/share/kali-defaults/.face-root /root/.face
+    fi
+    ln -sf /root/.face /root/.face.icon
 fi
 
 #DEBHELPER#

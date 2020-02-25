@@ -11,3 +11,6 @@ noautomount/setup-noautomount usr/share/kali-defaults/
 noautomount/kali-noautomount.desktop etc/xdg/autostart/
 profile.d/* etc/profile.d/
 debian/helper-script/* usr/bin/
+.face etc/skel/
+.face.icon etc/skel/
+.face-root usr/share/kali-defaults

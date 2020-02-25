@@ -2,3 +2,4 @@
 font-outside-font-dir usr/share/kali-defaults/web/fonts/*
 font-in-non-font-package usr/share/kali-defaults/web/fonts/*
 embedded-javascript-library usr/share/kali-defaults/web/*
+package-contains-file-in-etc-skel etc/skel/.face*
